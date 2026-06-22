@@ -1,5 +1,9 @@
 package br.com.knowledge.stockonyou.models.security;
 
-public class AuthRequest {
+import lombok.Data;
 
+@Data
+public class AuthRequest {
+    private String username;
+    private String password;
 }
